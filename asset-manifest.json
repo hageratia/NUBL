@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/nubl/static/css/main.eb526ad8.css",
+    "main.js": "/nubl/static/js/main.fc378b4f.js",
+    "static/js/453.4b575465.chunk.js": "/nubl/static/js/453.4b575465.chunk.js",
+    "static/media/fa-solid-900.ttf": "/nubl/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/fa-brands-400.ttf": "/nubl/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/nubl/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/nubl/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/nubl-removebg-preview.png": "/nubl/static/media/nubl-removebg-preview.481fd6c13c32b2ed651c.png",
+    "static/media/fa-regular-400.ttf": "/nubl/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/1.png": "/nubl/static/media/1.c9939c6a2261a0a5c9e6.png",
+    "static/media/fa-regular-400.woff2": "/nubl/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/fa-v4compatibility.ttf": "/nubl/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/nubl/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/nubl/index.html",
+    "main.eb526ad8.css.map": "/nubl/static/css/main.eb526ad8.css.map",
+    "main.fc378b4f.js.map": "/nubl/static/js/main.fc378b4f.js.map",
+    "453.4b575465.chunk.js.map": "/nubl/static/js/453.4b575465.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb526ad8.css",
+    "static/js/main.fc378b4f.js"
+  ]
+}
