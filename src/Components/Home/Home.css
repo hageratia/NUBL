@@ -1,0 +1,166 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../../asset/1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.containerr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* لضمان ملء الشاشة بالكامل */
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+    color: white;
+}
+
+.head .domain {
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.head .soon {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: bold;
+    opacity: 0.5;
+    letter-spacing: 1px;
+}
+
+.content .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .logo img {
+    width: 400px;
+    animation: slideInBounce 2s ease-in-out;
+}
+
+@keyframes slideInBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+
+    70% {
+        transform: translateY(-20px);
+    }
+
+    90% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.content h2 {
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.content h2 span {
+    letter-spacing: 4px;
+}
+
+.content p {
+    color: #455A53;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* استجابة للشاشات الصغيرة */
+@media (max-width: 768px) {
+    .head {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .head .domain,
+    .head .soon {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .head .soon {
+        font-size: 30px;
+        opacity: 0.8;
+    }
+
+    .content .logo img {
+        width: 250px;
+    }
+
+    .content h2 {
+        font-size: 30px;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .containerr {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .head {
+        padding: 10px 0;
+    }
+
+    .head .domain,
+    .head .soon {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    .head .soon {
+        font-size: 24px;
+    }
+
+    .content .logo img {
+        width: 150px;
+    }
+
+    .content h2 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+}
